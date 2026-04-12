@@ -1,0 +1,61 @@
+# VCS / local
+.git/
+.hg/
+
+# Node / JavaScript
+node_modules/
+jspm_packages/
+.npm/
+.yarn/
+.pnp/
+.pnp.js
+*.min.js
+*.min.css
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+npm-shrinkwrap.json
+
+# Python
+__pycache__/
+.venv/
+venv/
+.env/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+poetry.lock
+Pipfile.lock
+
+# JVM / Kotlin / Gradle
+.gradle/
+build/
+target/
+out/
+*.class
+
+# Rust
+target/
+
+# Go
+vendor/
+
+# Generic build / dist
+dist/
+build/
+.next/
+.nuxt/
+.cache/
+coverage/
+htmlcov/
+
+# Graphify output (never scan own output)
+graphify-out/
+
+# IDE / agent session (optional; trim if you want graph over these)
+.cursor/
+.claude/
+
+# Locks / generated (noise for graph)
+*.lock

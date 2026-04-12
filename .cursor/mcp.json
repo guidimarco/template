@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "graphify": {
+      "command": "/home/mg/.local/share/pipx/venvs/graphifyy/bin/python",
+      "args": [
+        "-m",
+        "graphify.serve",
+        "/home/mg/repos/template/graphify-out/graph.json"
+      ]
+    }
+  }
+}

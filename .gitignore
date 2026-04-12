@@ -1,0 +1,12 @@
+# AI
+/.claude/
+/.cursor/*
+!/.cursor/mcp.json
+/.gemini/
+
+# Local
+/.local/
+/graphify-out/
+
+# Security
+.env
