@@ -1,4 +1,4 @@
-# GUIDE: decision-protocol
+# guide-decision-protocol
 
 > Related: [[AGENTS]], [[wiki/README]], [[wiki/GLOSSARY]], [[wiki/guides/guide-syntax-lean]]
 

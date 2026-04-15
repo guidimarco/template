@@ -1,4 +1,4 @@
-# README: services
+# README
 
 > Related: [[wiki/README]], [[wiki/guides/guide-syntax-lean]]
 

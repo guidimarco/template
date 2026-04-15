@@ -8,7 +8,7 @@ GRAPH_FILE="$ROOT_DIR/graphify-out/graph.json"
 REPORT_FILE="$ROOT_DIR/graphify-out/GRAPH_REPORT.md"
 
 if [[ ! -f "$GRAPH_FILE" ]]; then
-  echo "[error] graph.json missing — run: graphify . --mode deep --obsidian"
+  echo "[error] graph.json missing — run: graphify . --mode deep --obsidian --output-dir ./obsidian-template/"
   exit 1
 fi
 

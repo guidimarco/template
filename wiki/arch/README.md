@@ -1,4 +1,4 @@
-# README: arch
+# README
 
 > Related: [[wiki/decisions/README]], [[VISION]], [[TESTING_STRATEGY]], [[ARCHITECTURE]], [[wiki/guides/guide-syntax-lean]]
 

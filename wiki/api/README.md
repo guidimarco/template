@@ -1,4 +1,4 @@
-# README: api
+# README
 
 > Related: [[wiki/README]], [[wiki/services/README]], [[wiki/GLOSSARY]], [[wiki/guides/guide-syntax-lean]]
 
@@ -10,10 +10,14 @@ _Data contracts; interface truth; error taxonomy_
 - Version prefix eg `/v1/`
 - Auth: bearer unless `[PUBLIC]`
 
+## Index
+
+-
+
 ## Template
 
 ````markdown
-# [METHOD] `[PATH]`
+# api-<slug>
 
 > Related: [[wiki/services/README]], [[wiki/GLOSSARY]]
 

@@ -1,4 +1,4 @@
-# AGENTS: [PROJECT]
+# AGENTS
 
 > Related: [[wiki/README]], [[wiki/guides/guide-graphify]], [[wiki/guides/guide-syntax-lean]], [[wiki/guides/guide-crosslinks]], [[wiki/guides/contributing]]
 
@@ -22,7 +22,9 @@ Policy: [[wiki/guides/guide-graphify]]
 
 Terminology: [[wiki/GLOSSARY]]; new terms need glossary entry  
 Contributing: [[wiki/guides/contributing]]  
-Naming: kebab-case + area prefix (`ent-`, `flow-`, `cmp-`, `dec-`, `api-`, `arch-`, `srv-`, `jrn-`, `guide-`)  
+Naming: kebab-case + area prefix (`ent-`, `flow-`, `cmp-`, `dec-`, `api-`, `arch-`, `srv-`, `jrn-`, `guide-`)
+Markdown H1: `# <stem>` only, `<stem>` = `.md` basename (matches `[[.../stem]]`); see [[wiki/README]] Naming  
+Markdown rules: NO bold, OK italic
 Changelog: [[CHANGELOG]] after substantive edits  
 Wikilinks: [[wiki/guides/guide-crosslinks]]; wiki layout: [[wiki/README]]
 
@@ -31,13 +33,13 @@ Wikilinks: [[wiki/guides/guide-crosslinks]]; wiki layout: [[wiki/README]]
 Detail: [[wiki/guides/guide-graphify]]
 
 - MCP: stdio server loading `graphify-out/graph.json` (`.mcp.json` + `.cursor/mcp.json`)
-- Rebuild graph: `graphify . --mode deep --obsidian` (bash; only path)
+- Rebuild graph: `graphify . --mode deep --obsidian --output-dir ./obsidian-template/` (bash; only path)
 - Verify (optional): `./scripts/graph-verify.sh`
 - Tests: [project-specific test command]
 
 ## Boot
 
-0. Missing `graphify-out/graph.json`: human runs `graphify . --mode deep --obsidian`; then `./scripts/graph-verify.sh` — fail → STOP; report (_CRITICAL_)
+0. Missing `graphify-out/graph.json`: human runs `graphify . --mode deep --obsidian --output-dir ./obsidian-template/`; then `./scripts/graph-verify.sh` — fail → STOP; report (_CRITICAL_)
 1. Graph exists: obtain context via MCP graph tools only — MCP down or errors → STOP; report (_CRITICAL_)
 2. [[VISION]], [[ARCHITECTURE]]; stop on violation
 3. Wiki or code paths after graph context satisfied

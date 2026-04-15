@@ -1,4 +1,4 @@
-# AGENTS: editor-bridge
+# CLAUDE
 
 > Related: [[AGENTS]], [[wiki/guides/guide-graphify]], [[wiki/guides/guide-syntax-lean]]
 

@@ -1,10 +1,10 @@
-# TESTING: [PROJECT]
+# TESTING_STRATEGY
 
 > Related: [[VISION]], [[ARCHITECTURE]], [[wiki/GLOSSARY]], [[wiki/user_journeys/README]], [[wiki/guides/contributing]]
 
 ## Traceability
 
-**Mandatory:** every suite, OKR mapping, and coverage claim MUST trace to [[VISION]] goals. Work without an explicit VISION anchor is out of scope until an ADR extends scope.
+_Mandatory:_ every suite, OKR mapping, and coverage claim MUST trace to [[VISION]] goals. Work without an explicit VISION anchor is out of scope until an ADR extends scope.
 
 - [[VISION]] OKRs → E2E coverage (required)
 - [[wiki/user_journeys/README]] journeys → suites

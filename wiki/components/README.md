@@ -1,4 +1,4 @@
-# README: components
+# README
 
 > Related: [[wiki/README]], [[ARCHITECTURE]], [[wiki/GLOSSARY]], [[wiki/guides/guide-syntax-lean]]
 
@@ -18,7 +18,7 @@ One file = one component; eg `cmp-ui-button.md`
 ## Template
 
 ````markdown
-# COMPONENT: [NAME]
+# cmp-<slug>
 
 > Related: [[ARCHITECTURE]], [[wiki/GLOSSARY]]
 

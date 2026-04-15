@@ -1,4 +1,4 @@
-# GUIDE: index
+# README
 
 > Related: [[AGENTS]], [[wiki/README]], [[wiki/GLOSSARY]], [[wiki/guides/guide-crosslinks]]
 

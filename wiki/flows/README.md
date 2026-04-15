@@ -1,4 +1,4 @@
-# README: flows
+# README
 
 > Related: [[wiki/README]], [[TESTING_STRATEGY]], [[wiki/GLOSSARY]], [[wiki/guides/guide-syntax-lean]]
 
@@ -13,7 +13,7 @@ _Ordered logic; triggers; branches; retry; notifications; links journeys to even
 ## Template
 
 ```markdown
-# FLOW: [Name]
+# flow-[name]
 
 > Related: [[wiki/api/README]], [[wiki/services/README]]
 

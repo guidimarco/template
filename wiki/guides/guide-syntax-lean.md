@@ -1,4 +1,4 @@
-# GUIDE: syntax-lean
+# guide-syntax-lean
 
 > Related: [[AGENTS]], [[wiki/README]], [[wiki/guides/guide-crosslinks]]
 
@@ -35,7 +35,7 @@ NO: SOAP, XML-RPC
 
 ## Markdown Format
 
-Title: `# TYPE: name` (eg `# GUIDE: syntax-lean`)
+Title: first `#` line = file stem (no `.md`); eg `wiki/guides/guide-syntax-lean.md` → `# guide-syntax-lean` (same token as `[[wiki/guides/guide-syntax-lean]]`)
 Subtitle: `> Related: [[...]]` (always)
 Headings: `##`; `###` only when subsection needed
 Emphasis: _italics_ only; no bold
@@ -43,7 +43,7 @@ Density: data needed for execution; 3–5 tight lines per section where concept 
 Links: `[[path]]` per [[wiki/guides/guide-crosslinks]]
 
 ```markdown
-# GUIDE: syntax-lean
+# guide-syntax-lean
 
 > Related: [[AGENTS]], [[wiki/README]]
 ```

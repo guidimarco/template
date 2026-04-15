@@ -1,4 +1,4 @@
-# README: wiki
+# README
 
 > Related: [[AGENTS]], [[wiki/GLOSSARY]], [[wiki/guides/guide-graphify]], [[wiki/guides/guide-syntax-lean]], [[wiki/guides/guide-crosslinks]]
 
@@ -17,6 +17,8 @@ Repo wikilinks feed extraction; `graphify-out/obsidian/` generated; open as vaul
 Pillars: [[wiki/guides/guide-crosslinks]]
 Each area: `README.md` inside folder
 Kebab-case notes + prefix: `api-<slug>.md`, `arch-<slug>.md`, `cmp-<slug>.md`, `dec-YYYY-MM-DD-<slug>.md`, `ent-<slug>.md`, `flow-<slug>.md`, `guide-<slug>.md`, `srv-<slug>.md`, `jrn-<slug>.md`
+
+_H1 (first markdown heading):_ must be exactly `# <stem>` where `<stem>` is the filename without `.md` (same string as the wikilink path after the last `/`, eg `[[wiki/services/srv-docker-compose]]` ↔ file `srv-docker-compose.md` ↔ `# srv-docker-compose`). No `TYPE:` prefixes in H1; type lives in the filename prefix. Detail: [[wiki/guides/guide-syntax-lean]], [[wiki/guides/guide-crosslinks]]
 
 ## Areas
 

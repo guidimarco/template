@@ -1,4 +1,4 @@
-# GUIDE: graphify
+# guide-graphify
 
 > Related: [[AGENTS]], [[wiki/README]], [[wiki/guides/contributing]], [[README]], [[wiki/guides/guide-crosslinks]]
 
@@ -26,7 +26,7 @@ _Governance:_ keep MCP server count low; prefer stdio for local; never commit se
 ## Rebuild (human or scripted outside agents)
 
 ```bash
-graphify . --mode deep --obsidian
+graphify . --mode deep --obsidian --output-dir ./obsidian-template/
 ```
 
 Only acceptable refresh path; no Skill shortcut, no other scripts, no incremental graph-update utilities
@@ -51,3 +51,5 @@ Checks edge/node ratio, `GRAPH_REPORT.md` sections, `graph.html` presence
 ## Output
 
 `graphify-out/` only (`graph.json`, `GRAPH_REPORT.md`, `graph.html`, `obsidian/`); inventory pointer: [[wiki/guides/guide-crosslinks]]
+
+Extraction aligns wikilinks to notes when each note’s H1 matches its filename stem; keep docs per [[wiki/guides/guide-crosslinks]] (H1 rule)

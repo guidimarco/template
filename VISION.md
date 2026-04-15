@@ -1,4 +1,4 @@
-# VISION: [PROJECT]
+# VISION
 
 > Related: [[ARCHITECTURE]], [[wiki/GLOSSARY]], [[TESTING_STRATEGY]], [[AGENTS]]
 
@@ -14,8 +14,7 @@ _Primary product purpose definition_
 
 _Definition of "objects" composing the product world_
 
-- eg `[[wiki/entities/ent-task|Task]]`: meaning and business purpose
-- eg `[[wiki/entities/ent-task|Task]]`: role and main interaction
+- _Entity notes:_ `wiki/entities/ent-<slug>.md` with H1 `# ent-<slug>`; wikilink `[[wiki/entities/ent-<slug>|Name]]` only after the file exists; index [[wiki/entities/README]]
 - _Key Relations:_ how entities generate value together
 
 ## Strategic Objectives (OKRs)
@@ -31,7 +30,7 @@ _Definition of "objects" composing the product world_
 
 ## Conceptual Roadmap
 
-- _Phase 1 (Foundation):_ eg indispensable minimum core `[[wiki/user_journeys/jrn-onboarding]]`
+- _Phase 1 (Foundation):_ eg indispensable minimum core journeys under [[wiki/user_journeys/README]] (`jrn-*.md`)
 - _Phase 2 (Scale):_ eg feature expansion and integrations
 - _Phase 3 (Future):_ eg planned disruptive innovations
 

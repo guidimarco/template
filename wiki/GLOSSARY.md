@@ -1,4 +1,4 @@
-# wiki/GLOSSARY
+# GLOSSARY
 
 > Related: [[AGENTS]], [[VISION]], [[wiki/README]], [[CHANGELOG]]
 
@@ -26,7 +26,7 @@ _Format:_
 Generic meta and infrastructure entity
 
 - knowledge_graph (active) [graph, kg]: semantic graph of code and docs built by graphify; stored in graphify-out/
-- graphify (active) [graphify_tool]: build via `graphify . --mode deep --obsidian`; query via MCP only; see [[wiki/guides/guide-graphify]]
+- graphify (active) [graphify_tool]: build via `graphify . --mode deep --obsidian --output-dir ./obsidian-template/`; query via MCP only; see [[wiki/guides/guide-graphify]]
 - mcp_server (active) [mcp]: Model Context Protocol server; exposes graph queries to AI agents via stdio
 - obsidian_vault (active) [vault]: Obsidian-compatible markdown vault generated from knowledge graph
 - graph_node (draft) [node]: single concept/file/function in the knowledge graph

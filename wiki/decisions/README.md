@@ -1,4 +1,4 @@
-# README: decisions
+# README
 
 > Related: [[VISION]], [[wiki/arch/README]], [[CHANGELOG]], [[wiki/guides/guide-syntax-lean]]
 
@@ -8,7 +8,7 @@ Initial status `proposed`; keep `problem_context` / `decision` / `consequences` 
 ## Template
 
 ```markdown
-# DECISION: [short-slug]
+# dec-YYYY-MM-DD-<slug>
 
 > Related: [[VISION]], [[ARCHITECTURE]]
 

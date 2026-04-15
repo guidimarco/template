@@ -1,4 +1,4 @@
-# GUIDE: contributing
+# contributing
 
 > Related: [[AGENTS]], [[wiki/README]], [[wiki/GLOSSARY]], [[CHANGELOG]], [[wiki/guides/guide-syntax-lean]], [[wiki/guides/guide-graphify]]
 
@@ -35,7 +35,7 @@ Skip: obvious imports; direct calls; same-area links AST already captures
 
 ## Graph workflow
 
-[[wiki/guides/guide-graphify]]; any doc or code change that must reflect in graph → `graphify . --mode deep --obsidian` then optional `./scripts/graph-verify.sh`; query graph via MCP before grep when MCP up
+[[wiki/guides/guide-graphify]]; any doc or code change that must reflect in graph → `graphify . --mode deep --obsidian --output-dir ./obsidian-template/` then optional `./scripts/graph-verify.sh`; query graph via MCP before grep when MCP up
 
 ## Preflight
 

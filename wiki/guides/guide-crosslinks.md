@@ -1,4 +1,4 @@
-# GUIDE: crosslinks
+# guide-crosslinks
 
 > Related: [[wiki/guides/guide-syntax-lean]], [[wiki/README]], [[AGENTS]], [[wiki/guides/guide-graphify]]
 
@@ -10,6 +10,12 @@ One canonical edge per concept; no copy-paste pillars across files
 
 Use `[[path/to-note]]` for repo markdown; path matches file without `.md`
 Alias: `[[wiki/entities/ent-task|Task]]` when display label helps scan
+
+## Document title (H1)
+
+First line of every wiki markdown note: `# <stem>` where `<stem>` is exactly the `.md` basename (same token as the last segment of `[[path/to/stem]]`). Wrong H1 breaks graphify and human search; agents must fix H1 when renaming files. Prose shape: [[wiki/guides/guide-syntax-lean]]
+
+## Pillars and graph outputs
 
 Pillars (duplicate nowhere; always link):
 
