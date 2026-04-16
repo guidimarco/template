@@ -1,6 +1,14 @@
 # README
 
-> Related: [[AGENTS]], [[wiki/GLOSSARY]], [[wiki/guides/guide-graphify]], [[wiki/guides/guide-syntax-lean]], [[wiki/guides/guide-crosslinks]]
+Related:
+
+- [[AGENTS]] agent policy; boot; graph-first
+- [[wiki/GLOSSARY]] terminology enforcement
+- [[wiki/guides/guide-graphify]] rebuild; MCP; outputs
+- [[wiki/guides/guide-syntax-lean]] doc density and H1 rule
+- [[wiki/guides/guide-crosslinks]] pillars; wikilinks; no duplicate edges
+
+---
 
 ## Doc style
 

@@ -1,6 +1,12 @@
 # guide-decision-protocol
 
-> Related: [[AGENTS]], [[wiki/README]], [[wiki/GLOSSARY]]
+Related:
+
+- [[AGENTS]] boot step 5 invokes this guide
+- [[wiki/README]] where ADRs and areas live
+- [[wiki/GLOSSARY]] cs and impl_ass terms
+
+---
 
 ## Authority chain
 

@@ -1,6 +1,11 @@
 # CHANGELOG
 
-> Related: [[VISION]], [[wiki/guides/guide-syntax-lean]]
+Related:
+
+- [[VISION]] scope anchor for notable releases
+- [[wiki/guides/guide-syntax-lean]] prose style for entries
+
+---
 
 SemVer `MAJOR.MINOR.PATCH`; newest first
 

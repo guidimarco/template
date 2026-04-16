@@ -1,6 +1,13 @@
 # README
 
-> Related: [[AGENTS]], [[wiki/README]], [[wiki/GLOSSARY]], [[wiki/guides/guide-crosslinks]]
+Related:
+
+- [[AGENTS]] procedures agents must follow
+- [[wiki/README]] guides live under wiki/guides
+- [[wiki/GLOSSARY]] shared terms across guides
+- [[wiki/guides/guide-crosslinks]] link discipline
+
+---
 
 ## Index
 

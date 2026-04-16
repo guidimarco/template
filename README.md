@@ -1,6 +1,12 @@
 # README
 
-> Related: [[VISION]], [[ARCHITECTURE]], [[wiki/GLOSSARY]]
+Related:
+
+- [[VISION]] product intent and OKRs
+- [[ARCHITECTURE]] technical boundaries and stack
+- [[wiki/GLOSSARY]] shared vocabulary
+
+---
 
 _Purpose:_ One-sentence elevator pitch: core purpose and the problem this repo solves.
 

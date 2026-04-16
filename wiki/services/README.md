@@ -1,6 +1,11 @@
 # README
 
-> Related: [[wiki/README]], [[wiki/guides/guide-syntax-lean]]
+Related:
+
+- [[wiki/README]] services area index
+- [[wiki/guides/guide-syntax-lean]] srv note shape
+
+---
 
 _Infra: containers; persistence volumes; env; hardware; networking; logging_
 

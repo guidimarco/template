@@ -1,6 +1,13 @@
 # README
 
-> Related: [[wiki/README]], [[wiki/services/README]], [[wiki/GLOSSARY]], [[wiki/guides/guide-syntax-lean]]
+Related:
+
+- [[wiki/README]] api area index
+- [[wiki/services/README]] infra and deployment behind endpoints
+- [[wiki/GLOSSARY]] error and resource names
+- [[wiki/guides/guide-syntax-lean]] api note shape
+
+---
 
 _Data contracts; interface truth; error taxonomy_
 
@@ -19,7 +26,16 @@ _Data contracts; interface truth; error taxonomy_
 ````markdown
 # api-<slug>
 
-> Related: [[wiki/services/README]], [[wiki/GLOSSARY]]
+Related:
+
+- [[wiki/services/README]] hosting and networking
+- [[wiki/GLOSSARY]] contract vocabulary
+
+Implemented:
+
+- _Link handlers, OpenAPI, or client SDK files._
+
+---
 
 ## Interface
 

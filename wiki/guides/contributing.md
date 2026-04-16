@@ -1,6 +1,19 @@
 # contributing
 
-> Related: [[AGENTS]], [[wiki/README]], [[wiki/GLOSSARY]], [[CHANGELOG]], [[wiki/guides/guide-syntax-lean]], [[wiki/guides/guide-graphify]]
+Related:
+
+- [[AGENTS]] who must follow this workflow
+- [[wiki/README]] area layout for new notes
+- [[wiki/GLOSSARY]] term checks before merge
+- [[CHANGELOG]] substantive edit log
+- [[wiki/guides/guide-syntax-lean]] density and headers
+- [[wiki/guides/guide-graphify]] rebuild after graph-affecting edits
+
+Implemented:
+
+- [[scripts/graph-verify.sh]] optional quality gate after graphify rebuild
+
+---
 
 ## Zero-Comment Policy
 

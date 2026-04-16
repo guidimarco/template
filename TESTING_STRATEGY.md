@@ -1,6 +1,14 @@
 # TESTING_STRATEGY
 
-> Related: [[VISION]], [[ARCHITECTURE]], [[wiki/GLOSSARY]], [[wiki/user_journeys/README]], [[wiki/guides/contributing]]
+Related:
+
+- [[VISION]] OKR traceability for suites
+- [[ARCHITECTURE]] layers under test
+- [[wiki/GLOSSARY]] term compliance as defect class
+- [[wiki/user_journeys/README]] journey-to-suite mapping
+- [[wiki/guides/contributing]] workflow and preflight
+
+---
 
 ## Traceability
 

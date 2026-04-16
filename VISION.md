@@ -1,6 +1,13 @@
 # VISION
 
-> Related: [[ARCHITECTURE]], [[wiki/GLOSSARY]], [[TESTING_STRATEGY]], [[AGENTS]]
+Related:
+
+- [[ARCHITECTURE]] technical realization of product intent
+- [[wiki/GLOSSARY]] terms for entities and strategy
+- [[TESTING_STRATEGY]] validation trace to goals
+- [[AGENTS]] agent governance and scope
+
+---
 
 ## Product Essence
 

@@ -1,6 +1,20 @@
 # README
 
-> Related: [[VISION]], [[wiki/GLOSSARY]], [[TESTING_STRATEGY]], [[wiki/README]], [[wiki/guides/guide-syntax-lean]], [[wiki/flows/README]], [[wiki/services/README]]
+Related:
+
+- [[VISION]] outcome and goal linkage
+- [[wiki/GLOSSARY]] actor and channel terms
+- [[TESTING_STRATEGY]] journey-to-suite trace
+- [[wiki/README]] wiki root
+- [[wiki/guides/guide-syntax-lean]] jrn prose rules
+- [[wiki/flows/README]] mechanism detail deferral
+- [[wiki/services/README]] infra deferral
+
+Implemented:
+
+- _None._
+
+---
 
 One file = one journey; name prefix `jrn-`; kebab-case slug
 
@@ -43,7 +57,12 @@ Copy into new `jrn-<slug>.md`; replace bracketed fields; keep sections even when
 ```markdown
 # jrn-[slug]
 
-> Related: [[VISION]], [[TESTING_STRATEGY]]
+Related:
+
+- [[VISION]] goal alignment
+- [[TESTING_STRATEGY]] automated coverage pointer
+
+---
 
 ## Job
 

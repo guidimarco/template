@@ -1,6 +1,13 @@
 # README
 
-> Related: [[wiki/README]], [[ARCHITECTURE]], [[wiki/GLOSSARY]], [[wiki/guides/guide-syntax-lean]]
+Related:
+
+- [[wiki/README]] components area index
+- [[ARCHITECTURE]] patterns and UI boundaries
+- [[wiki/GLOSSARY]] component terminology
+- [[wiki/guides/guide-syntax-lean]] cmp note shape
+
+---
 
 One file = one component; eg `cmp-ui-button.md`
 
@@ -20,7 +27,16 @@ One file = one component; eg `cmp-ui-button.md`
 ````markdown
 # cmp-<slug>
 
-> Related: [[ARCHITECTURE]], [[wiki/GLOSSARY]]
+Related:
+
+- [[ARCHITECTURE]] placement in system
+- [[wiki/GLOSSARY]] public names
+
+Implemented:
+
+- _Link source files when cmp has code._
+
+---
 
 ### Meta
 

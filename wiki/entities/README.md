@@ -1,6 +1,13 @@
 # README
 
-> Related: [[wiki/README]], [[VISION]], [[wiki/GLOSSARY]], [[wiki/guides/guide-syntax-lean]]
+Related:
+
+- [[wiki/README]] entities area index
+- [[VISION]] business objects source
+- [[wiki/GLOSSARY]] term linkage
+- [[wiki/guides/guide-syntax-lean]] ent note shape
+
+---
 
 _Canonical business objects; schema; states; invariants; lifecycle; maps [[VISION]] entities_
 
@@ -16,7 +23,16 @@ Entity invariants support [[ARCHITECTURE]] consistency (git as source of truth, 
 ```markdown
 # ent-<slug>
 
-> Related: [[VISION]], [[wiki/GLOSSARY]]
+Related:
+
+- [[VISION]] entity role in product
+- [[wiki/GLOSSARY]] canonical names
+
+Implemented:
+
+- _Link schema migrations or domain modules when present._
+
+---
 
 ## Schema
 

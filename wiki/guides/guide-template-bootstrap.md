@@ -1,6 +1,20 @@
 # guide-template-bootstrap
 
-> Related: [[README]], [[AGENTS]], [[VISION]], [[ARCHITECTURE]], [[wiki/GLOSSARY]], [[wiki/guides/guide-crosslinks]]
+Related:
+
+- [[README]] first human-facing doc
+- [[AGENTS]] governance strings to replace
+- [[VISION]] product placeholder
+- [[ARCHITECTURE]] technical placeholder
+- [[wiki/GLOSSARY]] terminology seed
+- [[wiki/guides/guide-crosslinks]] link and H1 rules after fork
+
+Implemented:
+
+- [[.mcp.json]] fork must rewrite python path and graph.json path
+- [[.cursor/mcp.json]] same rewrite as Claude MCP file
+
+---
 
 ## Goal
 

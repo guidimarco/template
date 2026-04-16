@@ -1,6 +1,13 @@
 # GLOSSARY
 
-> Related: [[AGENTS]], [[VISION]], [[wiki/README]], [[CHANGELOG]]
+Related:
+
+- [[AGENTS]] enforcement context for agents
+- [[VISION]] product terms source
+- [[wiki/README]] where entity and area notes live
+- [[CHANGELOG]] term changes worth noting in releases
+
+---
 
 Unique terminology for doc and code
 

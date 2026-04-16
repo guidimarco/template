@@ -1,6 +1,13 @@
 # README
 
-> Related: [[VISION]], [[wiki/arch/README]], [[CHANGELOG]], [[wiki/guides/guide-syntax-lean]]
+Related:
+
+- [[VISION]] scope and goals ADRs must respect
+- [[wiki/arch/README]] standards area; ADR index role
+- [[CHANGELOG]] record substantive decision milestones
+- [[wiki/guides/guide-syntax-lean]] ADR density
+
+---
 
 One file = one ADR; eg `dec-2026-04-12-choice-slug.md`
 Initial status `proposed`; keep `problem_context` / `decision` / `consequences` ultra short; details optional (≤2 lines)
@@ -10,7 +17,12 @@ Initial status `proposed`; keep `problem_context` / `decision` / `consequences` 
 ```markdown
 # dec-YYYY-MM-DD-<slug>
 
-> Related: [[VISION]], [[ARCHITECTURE]]
+Related:
+
+- [[VISION]] goal or constraint anchor
+- [[ARCHITECTURE]] technical impact
+
+---
 
 ### Meta
 

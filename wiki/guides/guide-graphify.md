@@ -1,6 +1,20 @@
 # guide-graphify
 
-> Related: [[AGENTS]], [[wiki/README]], [[wiki/guides/contributing]], [[README]], [[wiki/guides/guide-crosslinks]]
+Related:
+
+- [[AGENTS]] MCP-only query; boot; critical failure policy
+- [[wiki/README]] path conventions for extraction
+- [[wiki/guides/contributing]] rebuild workflow
+- [[README]] repo entry; human-facing graph summary
+- [[wiki/guides/guide-crosslinks]] outputs inventory; H1 rule
+
+Implemented:
+
+- [[.mcp.json]] Claude Code MCP; `graphify.serve` + absolute `graph.json` path
+- [[.cursor/mcp.json]] Cursor MCP; same args as Claude config
+- [[scripts/graph-verify.sh]] optional ratio and report checks
+
+---
 
 _MCP = sole query surface; rebuild = one bash command; no wrappers, no alternate query paths_
 
@@ -51,5 +65,7 @@ Checks edge/node ratio, `GRAPH_REPORT.md` sections, `graph.html` presence
 ## Output
 
 `graphify-out/` only (`graph.json`, `GRAPH_REPORT.md`, `graph.html`, `obsidian/`); inventory pointer: [[wiki/guides/guide-crosslinks]]
+
+Doc link blocks (`Related`, `Implemented`, body): normative layout [[wiki/guides/guide-crosslinks]] (Graph links)
 
 Extraction aligns wikilinks to notes when each note’s H1 matches its filename stem; keep docs per [[wiki/guides/guide-crosslinks]] (H1 rule)

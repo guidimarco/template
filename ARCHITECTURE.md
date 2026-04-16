@@ -1,6 +1,13 @@
 # ARCHITECTURE
 
-> Related: [[VISION]], [[wiki/GLOSSARY]], [[TESTING_STRATEGY]], [[AGENTS]]
+Related:
+
+- [[VISION]] product constraints and entities source
+- [[wiki/GLOSSARY]] technical terms alignment
+- [[TESTING_STRATEGY]] suites mapped to architecture layers
+- [[AGENTS]] scope and guardrails for agents
+
+---
 
 ## Style + patterns
 

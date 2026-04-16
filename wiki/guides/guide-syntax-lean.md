@@ -1,6 +1,12 @@
 # guide-syntax-lean
 
-> Related: [[AGENTS]], [[wiki/README]], [[wiki/guides/guide-crosslinks]]
+Related:
+
+- [[AGENTS]] agent boot; wiki vs code order
+- [[wiki/README]] wiki layout; H1 naming
+- [[wiki/guides/guide-crosslinks]] where Related vs body links differ
+
+---
 
 Documentation, comments, agent replies — token-tight; graph-friendly
 NO: [[VISION]], [[ARCHITECTURE]], [[TESTING_STRATEGY]], [[README]]
@@ -17,7 +23,7 @@ No auxiliary verbs when removable (is, are, must, should)
 No adjectives or adverbs (beautiful, fast, efficiently)
 No filler phrases (certainly, I understand, here is the result)
 Use nouns and verbs; prefer imperative
-No period; use `;` to link related concepts; newline for new block
+NO period; use `;` to link related concepts; newline for new block
 Prefer inline lists over bullet points when items are short
 
 _Example:_
@@ -28,31 +34,26 @@ Good: "Configure auth service before API access"
 
 Use when items need scanning; prefer newline per item
 Allowed shorthand: `OK:` and `NO:` for constraint lists
+NO period
 
 _Example:_
 OK: REST, gRPC, WebSocket
 NO: SOAP, XML-RPC
 
-## Markdown Format
+## Markdown format
 
 Title: first `#` line = file stem (no `.md`); eg `wiki/guides/guide-syntax-lean.md` → `# guide-syntax-lean` (same token as `[[wiki/guides/guide-syntax-lean]]`)
-Subtitle: `> Related: [[...]]` (always)
 Headings: `##`; `###` only when subsection needed
 Emphasis: _italics_ only; no bold
 Density: data needed for execution; 3–5 tight lines per section where concept needs glue
-Links: `[[path]]` per [[wiki/guides/guide-crosslinks]]
 
-```markdown
-# guide-syntax-lean
-
-> Related: [[AGENTS]], [[wiki/README]]
-```
+Header `Related` / `Implemented` / body wikilinks: [[wiki/guides/guide-crosslinks]] (Graph links)
 
 ## Comments in code
 
 [[wiki/guides/contributing]]
 
-## Agent Reply Format
+## Agent reply format
 
 ```markdown
 Task: <summary>

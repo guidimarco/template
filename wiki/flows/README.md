@@ -1,6 +1,13 @@
 # README
 
-> Related: [[wiki/README]], [[TESTING_STRATEGY]], [[wiki/GLOSSARY]], [[wiki/guides/guide-syntax-lean]]
+Related:
+
+- [[wiki/README]] flows area index
+- [[TESTING_STRATEGY]] flow and E2E alignment
+- [[wiki/GLOSSARY]] event and step vocabulary
+- [[wiki/guides/guide-syntax-lean]] flow note shape
+
+---
 
 _Ordered logic; triggers; branches; retry; notifications; links journeys to events_
 
@@ -17,7 +24,16 @@ Flows ground [[VISION]] triggers and outcomes in executable steps; they must sta
 ```markdown
 # flow-[name]
 
-> Related: [[wiki/api/README]], [[wiki/services/README]]
+Related:
+
+- [[wiki/api/README]] external IO this flow hits
+- [[wiki/services/README]] infra dependencies
+
+Implemented:
+
+- _Link automation exports, workers, or Makefile targets._
+
+---
 
 ### Meta
 

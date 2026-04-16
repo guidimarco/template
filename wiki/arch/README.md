@@ -1,6 +1,14 @@
 # README
 
-> Related: [[wiki/decisions/README]], [[VISION]], [[TESTING_STRATEGY]], [[ARCHITECTURE]], [[wiki/guides/guide-syntax-lean]]
+Related:
+
+- [[wiki/decisions/README]] ADRs for cross-cutting choices
+- [[VISION]] standards align to product
+- [[TESTING_STRATEGY]] validation of architectural claims
+- [[ARCHITECTURE]] canonical stack and patterns text
+- [[wiki/guides/guide-syntax-lean]] note shape
+
+---
 
 _Standards aligned to [[VISION]]; diagrams; naming; branching; layout; ADR pointer [[wiki/decisions/README]]_
 

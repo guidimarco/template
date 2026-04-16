@@ -1,47 +1,66 @@
 # AGENTS
 
-> Related: [[wiki/README]], [[wiki/guides/guide-graphify]], [[wiki/guides/guide-syntax-lean]], [[wiki/guides/guide-crosslinks]], [[wiki/guides/contributing]]
+Related:
+
+- [[wiki/README]] nine-area wiki hub; naming and layout
+- [[wiki/guides/guide-graphify]] MCP-only graph query; rebuild; outputs
+- [[wiki/guides/guide-syntax-lean]] token-tight prose; markdown shape for agents
+- [[wiki/guides/guide-crosslinks]] wikilinks; pillars; single canonical edges
+- [[wiki/guides/contributing]] doc-code workflow; anchors; changelog discipline
+
+Implemented:
+
+- [[.mcp.json]] Claude Code stdio MCP server; loads `graphify-out/graph.json`
+- [[.cursor/mcp.json]] Cursor MCP mirror; same graphify serve args
+- [[scripts/graph-verify.sh]] optional jq checks on `graph.json` and report artifacts
+
+---
 
 _Project:_ [One-sentence project description]
 
 ## Syntax
 
-Prose for wiki, comments, agent replies: [[wiki/guides/guide-syntax-lean]]
+## Knowledge map
 
-## Structure
+_Reconstruct logical hierarchy before acting_
 
-OK: `wiki/` (9 areas; [[wiki/README]]); `graphify-out/` (`graph.json`, `graph.html`, `obsidian/`); `scripts/graph-verify.sh` (optional check only); root pillars [[wiki/guides/guide-crosslinks]]
+- [[VISION]] [[ARCHITECTURE]] strategic pillars; stop on violation
+- [[wiki/GLOSSARY]] mandatory terminology; new terms need entries
+- [[wiki/README]] index of nine wiki areas
+- [[wiki/guides/guide-decision-protocol]] procedural gate for non-trivial work
 
-## Graph
+---
 
-Policy: [[wiki/guides/guide-graphify]]
+## Protocols
 
-`graphify-out/graph.json`: query _only_ via MCP tools; MCP unavailable or failing → STOP; report (_CRITICAL_); no `GRAPH_REPORT.md` / file fallback for graph intelligence
+_Syntax; naming; linking; tracking; repo layout_
 
-## Conventions
+- Writing: prose per [[wiki/guides/guide-syntax-lean]]; NO bold; OK italic
+- Naming: kebab-case + area prefix (`ent-`, `flow-`, `cmp-`, `dec-`, `api-`, `arch-`, `srv-`, `jrn-`, `guide-`); H1 equals filename stem; see [[wiki/README]] Naming
+- Linking: wikilinks per [[wiki/guides/guide-crosslinks]]; structural ties in header Related; logical ties inline in body
+- Tracking: substantive edits → [[CHANGELOG]]
+- Structure: OK `wiki/` (9 areas; [[wiki/README]]); `graphify-out/` (`graph.json`, `graph.html`, `obsidian/`); `./scripts/graph-verify.sh` (optional check only); root pillar rules [[wiki/guides/guide-crosslinks]]
 
-Terminology: [[wiki/GLOSSARY]]; new terms need glossary entry  
-Contributing: [[wiki/guides/contributing]]  
-Naming: kebab-case + area prefix (`ent-`, `flow-`, `cmp-`, `dec-`, `api-`, `arch-`, `srv-`, `jrn-`, `guide-`)
-Markdown H1: `# <stem>` only, `<stem>` = `.md` basename (matches `[[.../stem]]`); see [[wiki/README]] Naming  
-Markdown rules: NO bold, OK italic
-Changelog: [[CHANGELOG]] after substantive edits  
-Wikilinks: [[wiki/guides/guide-crosslinks]]; wiki layout: [[wiki/README]]
+---
 
-## Commands
+## Graph operations
 
-Detail: [[wiki/guides/guide-graphify]]
+_Source; failure policy; rebuild; verify; tests_
 
-- MCP: stdio server loading `graphify-out/graph.json` (`.mcp.json` + `.cursor/mcp.json`)
-- Rebuild graph: `graphify . --mode deep --obsidian --output-dir ./obsidian-template/` (bash; only path)
+- Policy: [[wiki/guides/guide-graphify]]
+- Source: `graphify-out/graph.json`; query _only_ via MCP tools; MCP unavailable or failing → STOP; report (_CRITICAL_); no `GRAPH_REPORT.md` / file fallback for graph intelligence
 - Verify (optional): `./scripts/graph-verify.sh`
 - Tests: [project-specific test command]
 
-## Boot
+---
+
+## Boot sequence
+
+_Strict order_
 
 0. Missing `graphify-out/graph.json`: human runs `graphify . --mode deep --obsidian --output-dir ./obsidian-template/`; then `./scripts/graph-verify.sh` — fail → STOP; report (_CRITICAL_)
 1. Graph exists: obtain context via MCP graph tools only — MCP down or errors → STOP; report (_CRITICAL_)
 2. [[VISION]], [[ARCHITECTURE]]; stop on violation
 3. Wiki or code paths after graph context satisfied
 4. External docs when needed
-5. Non-trivial work: [[wiki/guides/guide-decision-protocol]] — gates confidence and assumptions before execution; subordinate to step 2 ([[VISION]], [[ARCHITECTURE]])
+5. Non-trivial work: [[wiki/guides/guide-decision-protocol]] — gates confidence and assumptions before execution
