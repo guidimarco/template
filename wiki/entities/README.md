@@ -4,6 +4,8 @@
 
 _Canonical business objects; schema; states; invariants; lifecycle; maps [[VISION]] entities_
 
+Entity invariants support [[ARCHITECTURE]] consistency (git as source of truth, session-scoped branches, teardown rules)
+
 ## Conventions
 
 - File `ent-<slug>.md`; path = graph id; H1 = `# ent-<slug>` (see [[wiki/README]] Naming)

@@ -1,6 +1,12 @@
 # guide-decision-protocol
 
-> Related: [[AGENTS]], [[wiki/README]], [[wiki/GLOSSARY]], [[wiki/guides/guide-syntax-lean]]
+> Related: [[AGENTS]], [[wiki/README]], [[wiki/GLOSSARY]]
+
+## Authority chain
+
+[[AGENTS]] Boot step 5 invokes this guide for non-trivial repo work; this guide does not override [[VISION]] or [[ARCHITECTURE]] — if intent conflicts with pillars, stop and clarify (cs < 95% until resolved)
+
+Repo-facing agents (editors, bridges, automation that mutate docs/code per [[AGENTS]]) must apply cs / impl_ass / decision matrix before execution when this guide applies
 
 Skip when all hold:
 

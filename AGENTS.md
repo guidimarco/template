@@ -44,4 +44,4 @@ Detail: [[wiki/guides/guide-graphify]]
 2. [[VISION]], [[ARCHITECTURE]]; stop on violation
 3. Wiki or code paths after graph context satisfied
 4. External docs when needed
-5. Non-trivial work: [[wiki/guides/guide-decision-protocol]]
+5. Non-trivial work: [[wiki/guides/guide-decision-protocol]] — gates confidence and assumptions before execution; subordinate to step 2 ([[VISION]], [[ARCHITECTURE]])

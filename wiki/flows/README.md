@@ -4,6 +4,8 @@
 
 _Ordered logic; triggers; branches; retry; notifications; links journeys to events_
 
+Flows ground [[VISION]] triggers and outcomes in executable steps; they must stay consistent with [[ARCHITECTURE]] (n8n vs OpenClaw split, Makefile contract)
+
 ## Conventions
 
 - IO edge: [[wiki/api/README]]; infra: [[wiki/services/README]]
