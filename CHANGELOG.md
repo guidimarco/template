@@ -11,6 +11,12 @@ SemVer `MAJOR.MINOR.PATCH`; newest first
 
 ---
 
+## Unreleased
+
+- Doc: [[wiki/ux_ui/README]] UX/UI area hub (principles, foundations, patterns, a11y, templates)
+
+---
+
 ## 0.1.0 — Zero-Gravity Setup
 
 - Pillars: [[wiki/VISION]], [[wiki/ARCHITECTURE]], [[wiki/TESTING_STRATEGY]] templates
