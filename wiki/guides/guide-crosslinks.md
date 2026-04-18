@@ -47,7 +47,7 @@ First line of every wiki markdown note: `# <stem>` where `<stem>` is exactly the
 
 Pillars (duplicate nowhere; always link):
 
-- [[VISION]], [[ARCHITECTURE]], [[TESTING_STRATEGY]], [[CHANGELOG]], [[AGENTS]], [[README]], [[wiki/README]], [[wiki/GLOSSARY]]
+- [[wiki/VISION]], [[wiki/ARCHITECTURE]], [[wiki/TESTING_STRATEGY]], [[CHANGELOG]], [[AGENTS]], [[README]], [[wiki/README]], [[wiki/GLOSSARY]]
 - New repo from template: [[wiki/guides/guide-template-bootstrap]]
 
 Graph outputs (describe once; link here from elsewhere):

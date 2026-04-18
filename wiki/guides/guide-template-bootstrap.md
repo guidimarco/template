@@ -4,8 +4,8 @@ Related:
 
 - [[README]] first human-facing doc
 - [[AGENTS]] governance strings to replace
-- [[VISION]] product placeholder
-- [[ARCHITECTURE]] technical placeholder
+- [[wiki/VISION]] product placeholder
+- [[wiki/ARCHITECTURE]] technical placeholder
 - [[wiki/GLOSSARY]] terminology seed
 - [[wiki/guides/guide-crosslinks]] link and H1 rules after fork
 
@@ -24,11 +24,11 @@ Turn placeholder repo into product fork without hunting strings
 
 Global search `[PROJECT]` → real name in:
 
-- [[README]], [[VISION]], [[ARCHITECTURE]], [[TESTING_STRATEGY]], [[AGENTS]], [[wiki/GLOSSARY]], root H1 lines matching each file stem (`# README`, `# VISION`, …) after replacing `[PROJECT]`
+- [[README]], [[wiki/VISION]], [[wiki/ARCHITECTURE]], [[wiki/TESTING_STRATEGY]], [[AGENTS]], [[wiki/GLOSSARY]], root H1 lines matching each file stem (`# README`, `# wiki/VISION`, …) after replacing `[PROJECT]`
 
 ## Then
 
-- Fill [[VISION]] + [[ARCHITECTURE]] (single source for product truth)
+- Fill [[wiki/VISION]] + [[wiki/ARCHITECTURE]] (single source for product truth)
 - Prune example links in area READMEs (eg fake `cmp-ui-button`) or replace with real notes
 - Install graphify + MCP (`pipx`, `pipx inject`); configure `.mcp.json` and `.cursor/mcp.json`; run `graphify . --mode deep --obsidian --output-dir ./obsidian-template/`; see [[wiki/guides/guide-graphify]]
 

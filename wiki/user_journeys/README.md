@@ -2,9 +2,9 @@
 
 Related:
 
-- [[VISION]] outcome and goal linkage
+- [[wiki/VISION]] outcome and goal linkage
 - [[wiki/GLOSSARY]] actor and channel terms
-- [[TESTING_STRATEGY]] journey-to-suite trace
+- [[wiki/TESTING_STRATEGY]] journey-to-suite trace
 - [[wiki/README]] wiki root
 - [[wiki/guides/guide-syntax-lean]] jrn prose rules
 - [[wiki/flows/README]] mechanism detail deferral
@@ -42,7 +42,7 @@ Order: job → success criteria → primary path (coarse stages) → branches �
 Within path: stage = user action + perception first; optional latency note (what user sees while waiting); defer mechanism detail to linked wiki
 
 _Traceability_
-Each journey links [[VISION]] goals and [[TESTING_STRATEGY]] validation where automated checks exist
+Each journey links [[wiki/VISION]] goals and [[wiki/TESTING_STRATEGY]] validation where automated checks exist
 
 ## Index
 
@@ -59,8 +59,8 @@ Copy into new `jrn-<slug>.md`; replace bracketed fields; keep sections even when
 
 Related:
 
-- [[VISION]] goal alignment
-- [[TESTING_STRATEGY]] automated coverage pointer
+- [[wiki/VISION]] goal alignment
+- [[wiki/TESTING_STRATEGY]] automated coverage pointer
 
 ---
 
@@ -105,7 +105,7 @@ Number stages; one user-visible beat per line; system behavior only as user expe
 
 ## Validation
 
-- automated: [suite or contract refs per [[TESTING_STRATEGY]]]
+- automated: [suite or contract refs per [[wiki/TESTING_STRATEGY]]]
 - manual / exploratory: [scenarios not worth automating]
 
 ## Implementation map

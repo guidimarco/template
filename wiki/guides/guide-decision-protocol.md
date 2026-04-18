@@ -10,14 +10,14 @@ Related:
 
 ## Authority chain
 
-[[AGENTS]] Boot step 5 invokes this guide for non-trivial repo work; this guide does not override [[VISION]] or [[ARCHITECTURE]] — if intent conflicts with pillars, stop and clarify (cs < 95% until resolved)
+[[AGENTS]] Boot step 5 invokes this guide for non-trivial repo work; this guide does not override [[wiki/VISION]] or [[wiki/ARCHITECTURE]] — if intent conflicts with pillars, stop and clarify (cs < 95% until resolved)
 
 Repo-facing agents (editors, bridges, automation that mutate docs/code per [[AGENTS]]) must apply cs / impl_ass / decision matrix before execution when this guide applies
 
 Skip when all hold:
 
 - scope: single obvious change (typo, one file, user-supplied paste)
-- risk: no architecture, security, data model, cross-cutting behavior
+- risk: no wiki/ARCHITECTURE, security, data model, cross-cutting behavior
 - ambiguity: one reading; no competing requirements
 
 Always apply: new repo boot; new entities/flows/ADR; ambiguous spec; production-impacting edits
@@ -54,4 +54,4 @@ Multiple approaches:
 
 ## When
 
-Boot on unfamiliar task (unless trivial opt-out); architecture; new entity/flow/component; ambiguous scope
+Boot on unfamiliar task (unless trivial opt-out); wiki/ARCHITECTURE; new entity/flow/component; ambiguous scope

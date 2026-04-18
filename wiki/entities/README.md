@@ -3,15 +3,15 @@
 Related:
 
 - [[wiki/README]] entities area index
-- [[VISION]] business objects source
+- [[wiki/VISION]] business objects source
 - [[wiki/GLOSSARY]] term linkage
 - [[wiki/guides/guide-syntax-lean]] ent note shape
 
 ---
 
-_Canonical business objects; schema; states; invariants; lifecycle; maps [[VISION]] entities_
+_Canonical business objects; schema; states; invariants; lifecycle; maps [[wiki/VISION]] entities_
 
-Entity invariants support [[ARCHITECTURE]] consistency (git as source of truth, session-scoped branches, teardown rules)
+Entity invariants support [[wiki/ARCHITECTURE]] consistency (git as source of truth, session-scoped branches, teardown rules)
 
 ## Conventions
 
@@ -25,7 +25,7 @@ Entity invariants support [[ARCHITECTURE]] consistency (git as source of truth, 
 
 Related:
 
-- [[VISION]] entity role in product
+- [[wiki/VISION]] entity role in product
 - [[wiki/GLOSSARY]] canonical names
 
 Implemented:

@@ -2,9 +2,9 @@
 
 Related:
 
-- [[VISION]] product constraints and entities source
+- [[wiki/VISION]] product constraints and entities source
 - [[wiki/GLOSSARY]] technical terms alignment
-- [[TESTING_STRATEGY]] suites mapped to architecture layers
+- [[wiki/TESTING_STRATEGY]] suites mapped to wiki/ARCHITECTURE layers
 - [[AGENTS]] scope and guardrails for agents
 
 ---
@@ -24,7 +24,7 @@ Related:
 
 ## Data engineering
 
-_Technical translation of entities defined in [[VISION]]_
+_Technical translation of entities defined in [[wiki/VISION]]_
 
 - _Data Flow:_ how data moves between layers
 - _Consistency:_ [eg Eventual Consistency, ACID]

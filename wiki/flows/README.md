@@ -3,7 +3,7 @@
 Related:
 
 - [[wiki/README]] flows area index
-- [[TESTING_STRATEGY]] flow and E2E alignment
+- [[wiki/TESTING_STRATEGY]] flow and E2E alignment
 - [[wiki/GLOSSARY]] event and step vocabulary
 - [[wiki/guides/guide-syntax-lean]] flow note shape
 
@@ -11,7 +11,7 @@ Related:
 
 _Ordered logic; triggers; branches; retry; notifications; links journeys to events_
 
-Flows ground [[VISION]] triggers and outcomes in executable steps; they must stay consistent with [[ARCHITECTURE]] (n8n vs OpenClaw split, Makefile contract)
+Flows ground [[wiki/VISION]] triggers and outcomes in executable steps; they must stay consistent with [[wiki/ARCHITECTURE]] (n8n vs OpenClaw split, Makefile contract)
 
 ## Conventions
 

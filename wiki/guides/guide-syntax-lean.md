@@ -9,7 +9,7 @@ Related:
 ---
 
 Documentation, comments, agent replies — token-tight; graph-friendly
-NO: [[VISION]], [[ARCHITECTURE]], [[TESTING_STRATEGY]], [[README]]
+NO: [[wiki/VISION]], [[wiki/ARCHITECTURE]], [[wiki/TESTING_STRATEGY]], [[README]]
 
 ## Goal
 
@@ -71,5 +71,8 @@ NO: symbolic operators as word substitutes (`&` `->` `::` `4`)
 NO: numbers as words (`1` for only, `2` for to)
 NO: invented syntax that requires a decoder ring
 NO: compression that creates ambiguity
+NO: period at the end of the phrase; use new line
+NO: period between 2 phrases; use `;`
+NO: period for abbrevation (e.g. became eg)
 
 _Rationale:_ LLMs tokenize symbols and words similarly; symbolic shorthand saves ~0 tokens but degrades readability for humans and extraction quality for semantic tools (graphify, Obsidian)

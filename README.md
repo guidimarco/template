@@ -2,15 +2,15 @@
 
 Related:
 
-- [[VISION]] product intent and OKRs
-- [[ARCHITECTURE]] technical boundaries and stack
+- [[wiki/VISION]] product intent and OKRs
+- [[wiki/ARCHITECTURE]] technical boundaries and stack
 - [[wiki/GLOSSARY]] shared vocabulary
 
 ---
 
 _Purpose:_ One-sentence elevator pitch: core purpose and the problem this repo solves.
 
-Product intent lives in [[VISION]]; technical boundaries in [[ARCHITECTURE]]; shared vocabulary in [[wiki/GLOSSARY]]
+Product intent lives in [[wiki/VISION]]; technical boundaries in [[wiki/ARCHITECTURE]]; shared vocabulary in [[wiki/GLOSSARY]]
 
 ## Documentation discipline
 

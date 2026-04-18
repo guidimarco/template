@@ -2,7 +2,7 @@
 
 Related:
 
-- [[VISION]] scope and goals ADRs must respect
+- [[wiki/VISION]] scope and goals ADRs must respect
 - [[wiki/arch/README]] standards area; ADR index role
 - [[CHANGELOG]] record substantive decision milestones
 - [[wiki/guides/guide-syntax-lean]] ADR density
@@ -19,8 +19,8 @@ Initial status `proposed`; keep `problem_context` / `decision` / `consequences` 
 
 Related:
 
-- [[VISION]] goal or constraint anchor
-- [[ARCHITECTURE]] technical impact
+- [[wiki/VISION]] goal or constraint anchor
+- [[wiki/ARCHITECTURE]] technical impact
 
 ---
 

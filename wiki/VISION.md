@@ -2,9 +2,9 @@
 
 Related:
 
-- [[ARCHITECTURE]] technical realization of product intent
+- [[wiki/ARCHITECTURE]] technical realization of product intent
 - [[wiki/GLOSSARY]] terms for entities and strategy
-- [[TESTING_STRATEGY]] validation trace to goals
+- [[wiki/TESTING_STRATEGY]] validation trace to goals
 - [[AGENTS]] agent governance and scope
 
 ---
@@ -14,7 +14,7 @@ Related:
 _Primary product purpose definition_
 
 - _Mission:_ real problem solved and for whom
-- _Vision:_ future scenario after product success
+- _wiki/VISION:_ future scenario after product success
 - _Differentiating Value:_ why this product wins over competitors/alternatives
 
 ## Business Logic & Core Entities

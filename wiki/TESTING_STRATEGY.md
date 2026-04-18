@@ -2,8 +2,8 @@
 
 Related:
 
-- [[VISION]] OKR traceability for suites
-- [[ARCHITECTURE]] layers under test
+- [[wiki/VISION]] OKR traceability for suites
+- [[wiki/ARCHITECTURE]] layers under test
 - [[wiki/GLOSSARY]] term compliance as defect class
 - [[wiki/user_journeys/README]] journey-to-suite mapping
 - [[wiki/guides/contributing]] workflow and preflight
@@ -12,15 +12,15 @@ Related:
 
 ## Traceability
 
-_Mandatory:_ every suite, OKR mapping, and coverage claim MUST trace to [[VISION]] goals. Work without an explicit VISION anchor is out of scope until an ADR extends scope.
+_Mandatory:_ every suite, OKR mapping, and coverage claim MUST trace to [[wiki/VISION]] goals. Work without an explicit wiki/VISION anchor is out of scope until an ADR extends scope.
 
-- [[VISION]] OKRs → E2E coverage (required)
+- [[wiki/VISION]] OKRs → E2E coverage (required)
 - [[wiki/user_journeys/README]] journeys → suites
 - [[wiki/GLOSSARY]] term misuse → critical defect
 
 ## Validation Stack
 
-- _Logic (Unit):_ Domain Layer follows [[ARCHITECTURE]]; 0 dependencies; Vitest/Pytest
+- _Logic (Unit):_ Domain Layer follows [[wiki/ARCHITECTURE]]; 0 dependencies; Vitest/Pytest
 - _UI (Atomic):_ Storybook mandatory for each component; state coverage (loading/error)
 - _Contract (API):_ I/O validation; Schema compliance
 - _Flow (E2E):_ Playwright/Cypress; follows [[wiki/user_journeys/README]]

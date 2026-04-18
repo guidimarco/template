@@ -3,7 +3,7 @@
 Related:
 
 - [[wiki/README]] components area index
-- [[ARCHITECTURE]] patterns and UI boundaries
+- [[wiki/ARCHITECTURE]] patterns and UI boundaries
 - [[wiki/GLOSSARY]] component terminology
 - [[wiki/guides/guide-syntax-lean]] cmp note shape
 
@@ -29,7 +29,7 @@ One file = one component; eg `cmp-ui-button.md`
 
 Related:
 
-- [[ARCHITECTURE]] placement in system
+- [[wiki/ARCHITECTURE]] placement in system
 - [[wiki/GLOSSARY]] public names
 
 Implemented:
